@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Benchmark Delivery Services- Best in all delivery functions. We are secured, we are reliable and functioning</title>
+    <title>RusshRider Delivery Services- Best in all delivery functions. We are secured, we are reliable and functioning</title>
 
     <!-- owl carousel css -->
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}"/>
@@ -106,7 +106,7 @@
                             </a>
                         </div>
                         <div class="footer_about_us">
-                            <p style="text-align: justify;">Benchmark Delivery Services offers a host of logistic management services and supply chain solutions.
+                            <p style="text-align: justify;">RusshRider Delivery Services offers a host of logistic management services and supply chain solutions.
                                 We provide innovative solutions with the best people, processes, and technology.  </p>
                         </div>
                         <div class="footer_social">
@@ -176,14 +176,14 @@
                         <div class="single_tweets">
                             <span class="twit_icon fa fa-twitter"></span>
                             <div class="twit">
-                                <p><span class="tag">@Benchmark Delivery Services</span> transport Completely synergize resource sucking relationships theme is good</p>
+                                <p><span class="tag">@RusshRider Delivery Services</span> transport Completely synergize resource sucking relationships theme is good</p>
                                 <span class="time">3 minutes ago</span>
                             </div>
                         </div>
                         <div class="single_tweets">
                             <span class="twit_icon fa fa-twitter"></span>
                             <div class="twit">
-                                <p><span class="tag">@Benchmark Delivery Services</span> transport Completely synergize resource sucking relationships theme is good</p>
+                                <p><span class="tag">@RusshRider Delivery Services</span> transport Completely synergize resource sucking relationships theme is good</p>
                                 <span class="time">3 minutes ago</span>
                             </div>
                         </div>
