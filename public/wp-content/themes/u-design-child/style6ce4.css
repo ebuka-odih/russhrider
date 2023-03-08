@@ -1,0 +1,36 @@
+/*
+Theme Name: U-Design Child
+Description: Child Theme for U-Design
+Author: VillaGraphx
+Template: u-design
+Version: 1.0.0
+*/
+@import url("../u-design/style.css");
+
+/**** BEGIN ADDING YOUR CUSTOM CSS CODE BELOW: ****/
+
+a {text-decoration: underline;}
+
+#page-content-title h2 {display:none;}
+.c2-slide-img-frame, .c2-slide-img-frame-bg {display:none;}
+
+.widgettitle {font-size:16px; font-weight:700;}
+
+.homeRow {text-align:left;}
+
+.green {color: #009b3a;font-weight:bold;}
+
+.box {
+	text-align:center;
+	margin-bottom:25px;
+	padding:8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border:2px solid #029A3C;
+	background:rgba(255,255,255,0.0);
+}
+
+
+
+

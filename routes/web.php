@@ -18,6 +18,8 @@ Route::view('/about-us', 'pages.about')->name('about');
 Route::view('/contact', 'pages.contact')->name('contact');
 Route::view('/services', 'pages.services')->name('services');
 Route::view('/track_trace', 'pages.track_trace')->name('track_trace');
+Route::view('services/ground_shipping', 'pages.ground_shipping')->name('ground_shipping');
+Route::view('services/ground_shipping', 'pages.ground_shipping')->name('ground_shipping');
 Route::view('/demo', 'pages.demo');
 
 Route::post('track/shipment', "ShipmentController@trackShipment")->name('trackShipment');

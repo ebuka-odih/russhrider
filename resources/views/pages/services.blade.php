@@ -52,14 +52,14 @@
                     </div>
                     <div class="service_content">
                         <div class="service_title">
-                            <a href="single_service.html"><h3>ground shipping</h3></a>
+                            <a href="{{ route('ground_shipping') }}"><h3>ground shipping</h3></a>
                         </div>
                         <div class="service_text">
                             <p style="text-align: justify;">RusshRider Delivery Services Transport offers an efficient integrated transport system with
                                 multiple types of trucks available to support your trucking and distribution needs. </p>
                         </div>
                         <div class="read_more">
-                            <a href="single_service.html">read more <span class="fa fa-long-arrow-right"></span></a>
+                            <a href="{{ route('ground_shipping') }}">read more <span class="fa fa-long-arrow-right"></span></a>
                         </div>
                     </div>
                 </div>
