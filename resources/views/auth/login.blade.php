@@ -42,7 +42,7 @@
                             <!-- Header -->
                             <div class="mb-2 text-center">
                                 <a class="link-fx fw-bold fs-1" href="index.html">
-                                    <span class="text-dark">Bay</span><span class="text-primary">Shipment</span>
+                                    <span class="text-dark">Russh</span><span class="text-primary">Rider</span>
                                 </a>
                                 <p class="text-uppercase fw-bold fs-sm text-muted">Sign In</p>
                             </div>
