@@ -318,15 +318,16 @@
         <div class="clear"></div>
         <div itemtype="https://schema.org/WPHeader" itemscope="itemscope">				<div id="top-elements" class="container_24">
                 <div id="logo" class="grid_14">
-                    <h1 itemprop="headline"><a title="Rush Delivery" href="index.html">Rush Delivery</a></h1>
+                    <h1 itemprop="headline"><a title="Rush Delivery" href="{{ route('index') }}">Rush Delivery</a></h1>
                 </div>
             </div>
             <!-- end top-elements -->
             <div class="clear"></div>
             <nav id="main-menu" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" >
                 <div id="dropdown-holder" class="container_24">
-                    <div id="navigation-menu" class="navigation-menu"><ul id="main-top-menu" class="sf-menu"><li id="menu-item-85" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-85"><a href="index.html" aria-current="page"><span>Home</span></a></li>
-                            <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-86"><a href="about/index.html"><span>About</span></a>
+                    <div id="navigation-menu" class="navigation-menu"><ul id="main-top-menu" class="sf-menu"><li id="menu-item-85" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-85">
+                                <a href="{{ route('index') }}" aria-current="page"><span>Home</span></a></li>
+                            <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-86"><a href="{{ route('about') }}"><span>About</span></a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="about/affiliations/index.html"><span>Affiliations</span></a></li>
                                     <li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="about/community-relations/index.html"><span>Community Relations</span></a></li>
@@ -368,129 +369,7 @@
             <!-- end top-main-menu -->
         </div>
     </header>
-    <!-- end top-wrapper -->
-    <div class="clear"></div>
 
-    <a id="sticky-menu-logo" href="index.html" title="Rush Delivery"><img height="40" src="wp-content/uploads/2017/01/RushLogoNew_Registered-e1484146024431.png" alt="logo" /></a>
-
-    <div id="c2-header">
-        <div id="header-content" class="container_24">
-            <div class="c2-slideshow">
-                <div class="c2-slide-img-frame"></div>
-                <div class="c2-slide-img-frame-bg"></div>
-                <ul id="c2-slider">
-                    <li>
-                        <div class="c2-slide-img-wrapper">
-                            <a href="package-delivery-solutions/air-ride-suspension/index.html" target="_self">
-                                <img src="wp-content/uploads/2015/11/airRide_suspension.jpg" alt="Air Ride Suspension" class="slide-img" />
-                            </a>
-                        </div>
-                        <div class="slide-desc">
-                            <h2>Air Ride Suspension</h2>
-
-                            <p>RUSH provides the ultimate in transportation for critical computer equipment and components. Our air ride suspension vehicles absorb much more road vibration than coil or leaf springs. The ride quality is greatly improved. Potholes, train tracks, and other road irregularities melt away!</p>
-
-                            <a class="light-button align-btn-left" style="margin-top:10px;" href="package-delivery-solutions/air-ride-suspension/index.html" target="_self"><span>Learn More</span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="c2-slide-img-wrapper">
-                            <a href="services/contract-distribution/index.html" target="_self">
-                                <img src="wp-content/uploads/2016/01/semiFinished.jpg" alt="Contract Distribution" class="slide-img" />
-                            </a>
-                        </div>
-                        <div class="slide-desc">
-                            <h2>Complete or Partial Fleet Replacement</h2>
-
-                            <p>Our experienced Sales Team will customize a program to meet the distribution needs of your business, as well as your customers.</p>						    <a class="light-button align-btn-left" style="margin-top:10px;" href="services/contract-distribution/index.html" target="_self"><span>Learn More</span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="c2-slide-img-wrapper">
-                            <a href="package-delivery-solutions/same-day-courier-services/index.html" target="_self">
-                                <img src="wp-content/uploads/2016/03/same-day-courier.jpg" alt="Package Delivery Solutions" class="slide-img" />
-                            </a>
-                        </div>
-                        <div class="slide-desc">
-                            <h2>Same Day Courier Service</h2>
-
-                            <p>At Rush, our same day delivery drivers come into personal contact with your and your customers on a professional level that will meet or exceed your expectations. </p>						    <a class="light-button align-btn-left" style="margin-top:10px;" href="package-delivery-solutions/same-day-courier-services/index.html" target="_self"><span>Learn More</span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="c2-slide-img-wrapper">
-                            <a href="package-delivery-solutions/expedited-freight-services/index.html" target="_self">
-                                <img src="wp-content/uploads/2016/03/expedited-freight-service.jpg" alt="Expedited Freight Service" class="slide-img" />
-                            </a>
-                        </div>
-                        <div class="slide-desc">
-                            <h2>Expedited Freight Services</h2>
-
-                            <p>Our Expedited freight services from RUSH ensures your project stays firmly on schedule. Rush has the vehicles to meet your requirements.</p>						    <a class="light-button align-btn-left" style="margin-top:10px;" href="package-delivery-solutions/expedited-freight-services/index.html" target="_self"><span>Learn More</span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="c2-slide-img-wrapper">
-                            <a href="package-delivery-solutions/line-haul-distribution/index.html" target="_self">
-                                <img src="wp-content/uploads/2015/11/line-haul.jpg" alt="Line-Haul Distribution" class="slide-img" />
-                            </a>
-                        </div>
-                        <div class="slide-desc">
-                            <h2>Dedicated Line-Haul or Driver Fill-in</h2>
-
-                            <p>RUSH can offer your company specialized service in Line-haul Distribution. Whether you need us as your dedicated provider or as a fill-in for one of your drivers, you can rely on us to fully accommodate your needs.</p>						    <a class="light-button align-btn-left" style="margin-top:10px;" href="package-delivery-solutions/line-haul-distribution/index.html" target="_self"><span>Learn More</span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="c2-slide-img-wrapper">
-                            <a href="package-delivery-solutions/shuttle-services/index.html" target="_self">
-                                <img src="wp-content/uploads/2015/11/shuttle-services.jpg" alt="Shuttle Services" class="slide-img" />
-                            </a>
-                        </div>
-                        <div class="slide-desc">
-                            <h2>Curb-to-Curb Shuttle Services</h2>
-
-                            <p>RUSH has straight trucks and tractor trailers traveling through the United States on-call or contracted. Call us at (800) 989-7874 for rates on large loads. For daily or weekly scheduled route or deliveries, call for special rates and dependable service.</p>						    <a class="light-button align-btn-left" style="margin-top:10px;" href="package-delivery-solutions/shuttle-services/index.html" target="_self"><span>Learn More</span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="c2-slide-img-wrapper">
-                            <a href="package-delivery-solutions/warehouse-logistics/index.html" target="_self">
-                                <img src="wp-content/uploads/2016/03/warehouse-logistics.jpg" alt="Warehouse Logistics" class="slide-img" />
-                            </a>
-                        </div>
-                        <div class="slide-desc">
-                            <h2>Warehouse Logistics Space</h2>
-
-                            <p>Want to save money on your warehouse logistics storage? Then stop obsessing about storage fees and, instead, focus on your handling costs.</p>						    <a class="light-button align-btn-left" style="margin-top:10px;" href="package-delivery-solutions/warehouse-logistics/index.html" target="_self"><span>Start Saving</span></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="c2-slide-img-wrapper">
-                            <a href="https://0287.xdhosted.com/NewLogin.asp" target="_self">
-                                <img src="wp-content/uploads/2016/02/trio.jpg" alt="Register for an Account" class="slide-img" />
-                            </a>
-                        </div>
-                        <div class="slide-desc">
-                            <h2>Get Started Now!</h2>
-
-                            <p>Register for an account and get your packages delivered on time today!</p>
-                            <a class="light-button align-btn-left" style="margin-top:10px;" href="https://0287.xdhosted.com/NewLogin.asp" target="_self"><span>Register for an Account</span></a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!-- end c2-slideshow -->
-            <div class="c2-slider-controls">
-                <span id="c2-pauseButton" style=""><a href="#" title="Pause">Pause</a></span>
-                <span id="c2-resumeButton" style=""><a href="#" title="Play">Play</a></span>
-                <div id="c2-nav" style=""></div>
-            </div>
-
-        </div>
-        <!-- end header-content -->
-    </div>
-    <!-- end c2-header -->
 
 
         @yield('content')
