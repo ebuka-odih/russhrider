@@ -14,9 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'pages.index')->name('index');
-Route::view('/about-us', 'pages.about-us')->name('about');
+Route::view('/about-us', 'pages.about')->name('about');
 Route::view('/contact', 'pages.contact')->name('contact');
-Route::view('/services', 'pages.services')->name('service');
+Route::view('/services', 'pages.services')->name('services');
+Route::view('/track_trace', 'pages.track_trace')->name('track_trace');
 Route::view('/demo', 'pages.demo');
 
 Route::post('track/shipment', "ShipmentController@trackShipment")->name('trackShipment');

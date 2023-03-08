@@ -20,38 +20,12 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav magic_menu">
-                                <li class="active"><a href="index-2.html">Home</a></li>
-                                <li><a href="about_us2.html">About us</a></li>
-                                <li><a href="services-2.html">services</a></li>
-                                <li><a href="track_trace.html">Track & Trace</a></li>
-                                <li><a href="admin/pages/login.html">login</a></li>
+                                <li class="active"><a href="{{ route('index') }}">Home</a></li>
+                                <li><a href="{{ route('about') }}">About us</a></li>
+                                <li><a href="{{ route('services') }}">services</a></li>
+                                <li><a href="{{ route('track_trace') }}">Track & Trace</a></li>
                                 <!--<li><a href="contact.html">contact</a></li>-->
                             </ul>
-                            <div class="search_form">
-                                <div class="search_btn" data-toggle="modal" data-target="#search_modal">
-                                    <span class="fa fa-search"></span>
-                                </div>
-
-                                <!-- search Modal -->
-                                <div class="modal fade" id="search_modal" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog s_modal" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-body">
-                                                <div class="search_form_wrapper">
-                                                    <form method="post">
-                                                        <div class="search_input">
-                                                            <input type="text" name="search_field" placeholder="Search Query...">
-                                                            <button class="submit_btn" type="submit">
-                                                                <span class="fa fa-search"></span>
-                                                            </button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div><!-- /.navbar-collapse -->
                     </nav>
                 </div><!-- main menu ends -->

@@ -157,8 +157,8 @@
                         <li>
                             <span class="fa fa-envelope-o"></span>
                             <div class="address_right">
-                                <a href="mailto:youremail@gmail.com">support@in.benchmarkdeliveryservices.com</a>
-                                <a href="#">contact@in.benchmarkdeliveryservices.com</a>
+                                <a href="mailto:support@russhrider.com">support@russhrider.com</a>
+                                <a href="mailto:contact@russhrider.com">contact@russhrider.com</a>
                             </div>
                         </li>
                         </ul>
@@ -203,15 +203,14 @@
         <div class="container">
             <div class="col-md-6 xs_fullwidth col-xs-6">
                 <div class="footer_text_wrapper">
-                    <p class="footer_text">Copyright © Swift Track Global. All Rights Reserved by</p>
+                    <p class="footer_text">Copyright © RusshRider. All Rights Reserved by</p>
                 </div>
                 <div class="col-md-6 xs_fullwidth col-xs-6">
                     <div class="footer_menu clearfix">
                         <ul>
-                            <li><a href="index-3.html">Home</a></li>
-                            <li><a href="about_us.html">About Us</a></li>
-                            <li><a href="track_trace-2.html">Track & Trace</a></li>
-                            <li><a href="blog.html">News</a></li>
+                            <li><a href="{{ route('index') }}">Home</a></li>
+                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            <li><a href="{{ route('about') }}">Track & Trace</a></li>
                             <li><a href="contcat.html">Contact Us</a></li>
                         </ul>
                     </div>
