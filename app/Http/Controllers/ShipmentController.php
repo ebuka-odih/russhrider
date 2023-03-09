@@ -17,7 +17,7 @@ class ShipmentController extends Controller
             $history = ShipmentUpdate::where('shipment_id', $shipment->id)->get();
             return view('pages.shipment-details', compact('shipment', 'history'));
         }
-        return redirect()->back()->with('declined', "Sorry! No Such Shipment Code");
+        return redirect()->back()->with('declined', "Please Enter A Correct Shipment Code");
 
     }
 

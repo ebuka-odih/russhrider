@@ -4,7 +4,7 @@
     <!-- end top-wrapper -->
     <div class="clear"></div>
 
-    <a id="sticky-menu-logo" href="index.html" title="Rush Delivery"><img height="40" src="wp-content/uploads/2017/01/RushLogoNew_Registered-e1484146024431.png" alt="logo" /></a>
+    <a id="sticky-menu-logo" href="{{ route('index') }}" title="Rush Delivery"><img height="40" src="wp-content/uploads/2017/01/RushLogoNew_Registered-e1484146024431.png" alt="logo" /></a>
 
     <div id="c2-header">
         <div id="header-content" class="container_24">
@@ -108,7 +108,6 @@
                             <h2>Get Started Now!</h2>
 
                             <p>Register for an account and get your packages delivered on time today!</p>
-                            <a class="light-button align-btn-left" style="margin-top:10px;" href="https://0287.xdhosted.com/NewLogin.asp" target="_self"><span>Register for an Account</span></a>
                         </div>
                     </li>
                 </ul>
@@ -131,7 +130,41 @@
     <section id="before-content">
         <div id="before-content-column" class="container_24">
             <div class="home-page-divider"></div>
-            <div id='before-cont-box-1' class='column_3_of_3 home-cont-box'><div class='column-content-wrapper'><div class="widget_text cont_col_1 widget_custom_html substitute_widget_class"><div class="textwidget custom-html-widget"><p><div class="align-btn-center"><a class="flat-custom-button" href="careers/index.html" title="Flat Button"><span style="padding:10px 20px; background-color:#e2e2e2; border:1px solid #888888; color:#019b3c; font-size:14px;">APPLY ONLINE</span></a></div></p>
+            <div id='before-cont-box-1' class='column_3_of_3 home-cont-box'>
+                <div class='column-content-wrapper'>
+                    <div class="widget_text cont_col_1 widget_custom_html substitute_widget_class">
+                        <div class="textwidget custom-html-widget">
+                            <div id="search-3" class="widget widget_search substitute_widget_class">
+                                <style>
+                                    .button {
+                                        background-color: #4CAF50;
+                                        border: none;
+                                        color: white;
+                                        padding: 15px 32px;
+                                        text-align: center;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-size: 16px;
+                                        margin: 4px 2px;
+                                        cursor: pointer;
+                                    }
+                                </style>
+                                <form  method="POST" class="searchform" action="{{ route('trackShipment') }}">
+                                    @csrf
+                                    <h2 style="text-align: center; margin-bottom: 10px">Track Your Shipment</h2>
+                                    @if(session()->has('declined'))
+                                        <div class="alert alert-danger">
+                                            <p style="color: #d34040">{{ session()->get('declined') }}</p>
+                                        </div>
+                                    @endif
+                                    <div>
+                                        <label class="screen-reader-text" for="search-field">Track Package:</label>
+                                        <input style="height: 40px" type="text" id="search-field" name="s" value="" placeholder="Enter Shipment No">
+                                        <input type="submit" class="button" value="Track Shipment">
+                                    </div>
+                                </form>
+                            </div>
+
                             <h4 style="margin-bottom: 25px;text-align:center;"><span style="font-size: 36px; font-weight: bold; color: #019b3c; line-height: 1.2;">We Would <i class="fa fa-heart" style="color: #DD0000; font-size:1em;"></i> To Have You as Part Of Our Team</span></h4></div></div><div class="widget_text cont_col_1 widget_custom_html substitute_widget_class"><div class="textwidget custom-html-widget">			<h2 style="text-align: center">
                                 <span style="font-size 48px; line-height: 1.2; color: #DD0000; font-weight: bold;">Rush Featured in Dayton Reopening Video</span></h2>
                             <br />
