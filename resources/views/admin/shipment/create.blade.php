@@ -44,17 +44,17 @@
                        </div>
                        <div class="col-6">
                            <label class="" for="example-if-password">Sender Email <span class="text-danger">*</span></label>
-                           <input type="email" class="form-control" id="example-if-password" {{ old('sender_email') }} name="sender_email" >
+                           <input type="email" class="form-control" id="example-if-password" value="{{ old('sender_email') }}" name="sender_email" >
                        </div>
                    </div>
                     <div class="row mb-3">
                        <div class="col-6">
                            <label class="" for="example-if-phone">Sender Phone</label>
-                           <input type="text" class="form-control" id="example-if-phone" {{ old('sender_phone') }} name="sender_phone" >
+                           <input type="text" class="form-control" id="example-if-phone" value="{{ old('sender_phone') }}" name="sender_phone" >
                        </div>
                        <div class="col-6">
                            <label class="" for="example-if-address">Sender Address</label>
-                           <input type="text" class="form-control" id="example-if-address" {{ old('sender_phone') }} name="sender_address" >
+                           <input type="text" class="form-control" id="example-if-address" value="{{ old('sender_address') }}" name="sender_address" >
                        </div>
                    </div>
                     <div class="block-header block-header-default">
@@ -63,21 +63,21 @@
                     <div class="row mb-3">
                         <div class="col-6">
                             <label class="" for="example-if-name">Receiver Name <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="example-if-name" {{ old('rec_name') }} name="rec_name" >
+                            <input type="text" class="form-control" id="example-if-name" value="{{ old('rec_name') }} " name="rec_name" >
                         </div>
                         <div class="col-6">
                             <label class="" for="example-if-password">Receiver Email <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="example-if-password" {{ old('rec_email') }} name="rec_email" >
+                            <input type="text" class="form-control" id="example-if-password" value="{{ old('rec_email') }}" name="rec_email" >
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col-6">
                             <label class="" for="example-if-email">Receiver Phone <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="example-if-email" {{ old('rec_phone') }} name="rec_phone" >
+                            <input type="text" class="form-control" id="example-if-email" value="{{ old('rec_phone') }}" name="rec_phone" >
                         </div>
                         <div class="col-6">
                             <label class="" for="example-if-password">Receiver Address <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="example-if-password" {{ old('rec_address') }} name="rec_address" >
+                            <input type="text" class="form-control" id="example-if-password" value="{{ old('rec_address') }}" name="rec_address" >
                         </div>
                     </div>
                     <br>
@@ -113,17 +113,17 @@
                         </div>
                         <div class="col-6">
                             <label class="" for="example-if-password">Quantity</label>
-                            <input type="text" class="form-control" id="example-if-password" name="quantity" >
+                            <input type="text" class="form-control" id="example-if-password" value="{{ old('quantity') }}" name="quantity" >
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col-4">
                             <label class="" for="example-if-email">Total Freight</label>
-                            <input type="text" class="form-control" id="example-if-email" name="total_freight" >
+                            <input type="text" class="form-control" id="example-if-email" name="total_freight" value="{{ old('total_freight') }}">
                         </div>
                         <div class="col-4">
                             <label class="" for="example-if-password">Carrier No</label>
-                            <input type="text" class="form-control" id="example-if-password" name="carrier_no" >
+                            <input type="text" class="form-control" id="example-if-password" name="carrier_no" value="{{ old('carrier_no') }}">
                         </div>
                         <div class="col-4">
                             <label class="" for="origin">Origin</label>
@@ -379,27 +379,27 @@
                     <div class="row mb-3">
                         <div class="col-6">
                             <label class="" for="example-if-email">Pickup Date</label>
-                            <input type="date" class="form-control" id="example-if-email" name="pickup_date" >
+                            <input type="date" class="form-control" id="example-if-email" name="pickup_date" value="{{ old('pickup_date') }}">
                         </div>
                         <div class="col-6">
                             <label class="" for="example-if-password">Expected Date</label>
-                            <input type="date" class="form-control" id="example-if-password" name="expected_date" >
+                            <input type="date" class="form-control" id="example-if-password" name="expected_date" value="{{ old('expected_date') }}">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col-6">
                             <label class="" for="example-if-email">Weight</label>
-                            <input type="text" class="form-control" id="example-if-email" name="weight" >
+                            <input type="text" class="form-control" id="example-if-email" name="weight" value="{{ old('weight') }}">
                         </div>
                         <div class="col-6">
                             <label class="" for="example-if-password"> Package</label>
-                            <input type="text" class="form-control" id="example-if-password" name="package" >
+                            <input type="text" class="form-control" id="example-if-password" name="package" value="{{ old('package') }}">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col-4">
                             <label class="" for="example-if-email">Product</label>
-                            <input type="text" class="form-control" id="example-if-email" name="product" >
+                            <input type="text" class="form-control" id="example-if-email" name="product" value="{{ old('product') }}">
                         </div>
                         <div class="col-4">
                             <label class="" for="example-if-password"> Mode Of Payment</label>
@@ -412,17 +412,17 @@
                         </div>
                         <div class="col-4">
                             <label class="" for="example-if-email">Carrier</label>
-                            <input type="text" class="form-control" id="example-if-email" name="carrier" >
+                            <input type="text" class="form-control" id="example-if-email" name="carrier" value="{{ old('carrier') }}">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col-4">
                             <label class="" for="example-if-email">Departure Time</label>
-                            <input type="time" class="form-control" id="example-if-email" name="departure_time" >
+                            <input type="time" class="form-control" id="example-if-email" name="departure_time" value="{{ old('departure_time') }}">
                         </div>
                         <div class="col-4">
                             <label class="" for="example-if-password">Pickup Time</label>
-                            <input type="time" class="form-control" id="example-if-password" name="pickup_time" >
+                            <input type="time" class="form-control" id="example-if-password" name="pickup_time" value="{{ old('pickup_time') }}">
                         </div>
                         <div class="col-4">
                             <label class="" for="country">Destination</label>
