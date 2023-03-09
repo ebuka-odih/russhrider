@@ -156,8 +156,9 @@
                             <li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-92"><a href="{{ route('contact') }}"><span>Contact</span></a>
 
                             </li>
-                            <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="{{ route('rates') }}"><span>Accessorials</span></a></li>
-                        </ul></div>			</div>
+                        </ul>
+                    </div>
+                </div>
                 <!-- end dropdown-holder -->
             </nav>
             <!-- end top-main-menu -->
