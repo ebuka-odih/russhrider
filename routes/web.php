@@ -25,6 +25,9 @@ Route::view('locations/cincinnati-courier-service', 'pages.locations.cincinnati-
 Route::view('locations/dayton-courier-service', 'pages.locations.dayton-courier-service')->name('dayton');
 Route::view('locations/columbus-courier-service', 'pages.locations.columbus-courier-service')->name('columbus');
 
+Route::view('package-delivery-solutions', 'services.');
+Route::view('package-delivery-solutions/air-ride-suspension/', 'services.');
+
 Route::view('/contact', 'pages.contact')->name('contact');
 Route::view('/services', 'pages.services')->name('services');
 Route::view('/track_trace', 'pages.track_trace')->name('track_trace');

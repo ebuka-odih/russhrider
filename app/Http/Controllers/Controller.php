@@ -22,7 +22,7 @@ class Controller extends BaseController
         if($shipment){
             $last_shipmemt_num = $shipment->shipment_number ;
         }else {
-            $last_shipmemt_num = 'BAY106048023';
+            $last_shipmemt_num = 'RUSH106048023';
         }
 
 //        $shipment_num = (int)$last_shipmemt_num + 1;
@@ -31,7 +31,7 @@ class Controller extends BaseController
 
 
     public function trackingNo(){
-        $first_sting = 'BAY'; //this is d default starting string
+        $first_sting = 'RUSH'; //this is d default starting string
         $last_string = strtoupper(Str::random(3)); //this auto generates last 3 strings
         $id = mt_rand(100000,999999); // this auto generates 7digit codes
         $tn = $first_sting.$id.$last_string; // this adds den togeda

@@ -159,7 +159,7 @@
                                     @endif
                                     <div>
                                         <label class="screen-reader-text" for="search-field">Track Package:</label>
-                                        <input style="height: 40px" type="text" id="search-field" name="s" value="" placeholder="Enter Shipment No">
+                                        <input style="height: 40px" type="text" id="search-field" name="shipment_number" value="" placeholder="Enter Shipment No">
                                         <input type="submit" class="button" value="Track Shipment">
                                     </div>
                                 </form>

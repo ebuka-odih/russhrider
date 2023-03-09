@@ -11,7 +11,6 @@ class ShipmentController extends Controller
 
     public function trackShipment(Request $request)
     {
-
         $shipment = Shipment::where('shipment_number', $request->shipment_number)->first();
         if ($shipment) {
             $history = ShipmentUpdate::where('shipment_id', $shipment->id)->get();
