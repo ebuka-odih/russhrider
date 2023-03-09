@@ -9,7 +9,7 @@
     <section id="page-content-title">
         <div id="page-content-header" class="container_24">
             <div id="page-title">
-                <h1 class="pagetitle entry-title" itemprop="headline">Air Ride Suspension</h1>
+                <h1 class="pagetitle entry-title" itemprop="headline">Contract Distribution Fleet Replacement</h1>
             </div>
             <!-- end page-title -->
         </div>
@@ -25,24 +25,20 @@
             <main id="main-content" role="main" class="grid_16">
                 <div class="main-content-padding">
                     <div itemprop="mainContentOfPage"  itemscope="itemscope">
-                        <article class="post-25 page type-page status-publish hentry" id="post-25">
+                        <article class="post-18 page type-page status-publish hentry" id="post-18">
 
 
                             <div class="entry">
-                                <h2><em>Air Ride Suspension reduces vibration for the safe transportation of your delicate products and materials</em></h2>
-                                <p>Air ride suspension vehicles are equipped with a suspension system built around sturdy air bags absorbing vibration and impact shock. Cargo actually floats on a cushion of air, nearly eliminating both compression damage and telescoping. Regardless of your product, it will travel better on our air-ride trucks and trailers.</p>
-                                <p><span class="green" style="color: #019b3c;">RUSH</span> provides the ultimate in transportation for critical computer equipment and components. Our air ride suspension vehicles absorb much more road vibration than coil or leaf springs. The ride quality is greatly improved. Potholes, train tracks, and other road irregularities melt away!</p>
-                                <ul>
-                                    <li>Calibrated precision equipment<a href="http://166.62.121.7/~rushdelivery/wp-content/uploads/2015/11/airRide_suspension.jpg" rel="wp-prettyPhoto[25]" class="broken_link"><img decoding="async" class="alignright size-medium wp-image-221" src="http://166.62.121.7/~rushdelivery/wp-content/uploads/2015/11/airRide_suspension-300x136.jpg" alt="Air Ride Suspension" width="300" height="136" srcset="https://www.rush-delivery.com/wp-content/uploads/2015/11/airRide_suspension-300x136.jpg 300w, https://www.rush-delivery.com/wp-content/uploads/2015/11/airRide_suspension.jpg 680w" sizes="(max-width: 300px) 100vw, 300px" /></a></li>
-                                    <li>Fragile Electronics</li>
-                                    <li>Fragile perishables</li>
-                                    <li>Glass products or materials</li>
-                                    <li>Hazardous materials</li>
-                                    <li>Pressurized gas containers</li>
-                                    <li>Liquid containers</li>
-                                </ul>
-                                <p>Air-ride suspension also helps reduce driver fatigue and improves mechanical reliability, tire wear and fuel mileage. This combination translates into less downtime and reliable delivery.</p>
-                                <p>You can depend on <span class="green" style="color: #019b3c;">RUSH</span> to provide customized services for your company&#8217;s specialized logistics.</p>
+                                <h2><em>Complete or Partial Fleet Replacement</em></h2>
+                                <p>At <span class="green" style="color: #019b3c;">RUSH Transportation &amp; Logistics</span>, we offer complete and partial fleet replacement for any of your distrubtion requirements. We can take on the operation of your transportation fleet with our equipment and experienced drivers.</p>
+                                <p>Our experienced Service Managers will customize a program to meet the distribution requirements of your business, as well as your customers.</p>
+                                <p>Multiple options are available to create a seamless extension of your company including:</p>
+                                <i class="fa fa-truck" style="color:#019b3c;"></i> Equipment acquisition.<br />
+                                <i class="fa fa-truck" style="color:#019b3c;"></i> Use of your company&#8217;s uniforms and logos.<br />
+                                <i class="fa fa-truck" style="color:#019b3c;"></i> Employment of your company&#8217;s displaced drivers or staff.</p>
+                                <p>Our staff is trained to accommodate your unique business needs. Various vehicle sizes and <a href="https://www.rush-delivery.com/wp-content/uploads/2015/11/semi-a.jpg" rel="wp-prettyPhoto[18]"><img decoding="async" class="alignright wp-image-217 size-medium" src="https://www.rush-delivery.com/wp-content/uploads/2015/11/semi-a-300x136.jpg" alt="Fleet Replacement Contract Distribution" width="300" height="136" srcset="https://www.rush-delivery.com/wp-content/uploads/2015/11/semi-a-300x136.jpg 300w, https://www.rush-delivery.com/wp-content/uploads/2015/11/semi-a.jpg 680w" sizes="(max-width: 300px) 100vw, 300px" /></a>distribution lanes allow <span class="green" style="color: #019b3c;">RUSH</span> to compete with less-than-load (LTL) carriers by offering earlier next-day delivery. We will custom design early morning delivery, or delivery to meet specific time or distribution deadlines. Our goal is to become an extension of your business &#8211; your distribution partner.</p>
+                                <p>At <span class="green" style="color: #019b3c;">RUSH</span>, we will eliminate the headaches associated with operating your own fleet. <span class="green" style="color: #019b3c;">RUSH</span> will provide reliable, uninterrupted service that allows you to concentrate on your core business.</p>
+                                <p>Illness, vacation, vehicle maintenance, insurance, worker&#8217;s compensation and driver turnover will no longer be issues when you contract with <span class="green" style="color: #019b3c;">RUSH</span>. Your business does not stop for the unexpected, and neither do we.</p>
                             </div>
 
 
@@ -54,8 +50,7 @@
 
             <aside id="sidebar" class="grid_8">
                 <div id="sidebarSubnav">
-                    <div itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
-                        <div id="custom_html-5" class="widget_text widget widget_custom_html substitute_widget_class"><h3 class="widgettitle">Need it Today?</h3><div class="textwidget custom-html-widget"><div class="box">
+                    <div itemtype="https://schema.org/WPSideBar" itemscope="itemscope"><div id="custom_html-5" class="widget_text widget widget_custom_html substitute_widget_class"><h3 class="widgettitle">Need it Today?</h3><div class="textwidget custom-html-widget"><div class="box">
                                     <h2>Same Day Delivery Service</h2>
                                     To request account information call our Customer Service Center
                                     <p style="text-align: center;">(937) 297-6182 (Dayton)

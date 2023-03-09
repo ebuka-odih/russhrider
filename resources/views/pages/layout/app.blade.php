@@ -141,16 +141,16 @@
                                     <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="{{ route('dayton') }}"><span>Dayton</span></a></li>
                                 </ul>
                             </li>
-                            <li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-100"><a href="package-delivery-solutions/index.html"><span>Services</span></a>
+                            <li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-100"><a href="{{ route('package-delivery-solutions') }}"><span>Services</span></a>
                                 <ul class="sub-menu">
-                                    <li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="package-delivery-solutions/air-ride-suspension/index.html"><span>Air Ride Suspension</span></a></li>
-                                    <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="package-delivery-solutions/fleet-replacement/index.html"><span>Contract Distribution</span></a></li>
-                                    <li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="package-delivery-solutions/same-day-courier-services/index.html"><span>Courier Services</span></a></li>
-                                    <li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="package-delivery-solutions/expedited-freight-services/index.html"><span>Expedited Freight Services</span></a></li>
-                                    <li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="package-delivery-solutions/line-haul-distribution/index.html"><span>Line-Haul Distribution</span></a></li>
-                                    <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="package-delivery-solutions/medical-deliveries/index.html"><span>Medical Deliveries</span></a></li>
-                                    <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="package-delivery-solutions/shuttle-services/index.html"><span>Shuttle Services</span></a></li>
-                                    <li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="package-delivery-solutions/warehouse-logistics/index.html"><span>Warehouse Logistics</span></a></li>
+                                    <li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="{{ route('air-ride-suspension') }}"><span>Air Ride Suspension</span></a></li>
+                                    <li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="{{ route('fleet-replacement') }}"><span>Contract Distribution</span></a></li>
+                                    <li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="{{ route('same-day-courier-services') }}"><span>Courier Services</span></a></li>
+                                    <li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="{{ route('expedited-freight-services') }}"><span>Expedited Freight Services</span></a></li>
+                                    <li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="{{ route('line-haul-distribution') }}"><span>Line-Haul Distribution</span></a></li>
+                                    <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="{{ route('medical-deliveries') }}"><span>Medical Deliveries</span></a></li>
+                                    <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="package-delivery-solutions/shuttle-services"><span>Shuttle Services</span></a></li>
+                                    <li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="package-delivery-solutions/warehouse-logistics"><span>Warehouse Logistics</span></a></li>
                                 </ul>
                             </li>
                             <li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-92"><a href="contact/index.html"><span>Contact</span></a>

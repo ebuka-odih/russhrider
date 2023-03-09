@@ -32,15 +32,17 @@
                                 <p><span class="green" style="color: #019b3c;">RUSH  Transportation &amp; Logistics</span> facilitates your business critical package delivery solutions 24 hours a day, 7 days a week, and 365 days a year. <span class="green" style="color: #019b3c;">RUSH</span> is the region&#8217;s leading same-day transportation and logistics services company offering a wide range of door-to-door fulfillment and distribution for clients of all sizes and needs.</p>
                                 <h2>Business Critical Package Delivery Solutions</h2>
                                 <p><span class="green" style="color: #019b3c;">RUSH</span> provides same day package delivery of important documents, time-sensitive packages, and LTL freight.</p>
-                                <p><a href="/wp-content/uploads/2015/11/packageDeliveryServices.jpg" rel="wp-prettyPhoto[16]"><img decoding="async" class="alignright wp-image-204 size-medium" src="https://www.rush-delivery.com/wp-content/uploads/2015/11/packageDeliveryServices-300x168.jpg" alt="Package Delivery Solutions" width="300" height="168" srcset="https://www.rush-delivery.com/wp-content/uploads/2015/11/packageDeliveryServices-300x168.jpg 300w, https://www.rush-delivery.com/wp-content/uploads/2015/11/packageDeliveryServices.jpg 750w" sizes="(max-width: 300px) 100vw, 300px" /></a><i class="fa fa-truck" style="color:#019b3c;"></i> <a href="https://www.rush-delivery.com/package-delivery-solutions/fleet-replacement/">Contract Distribution</a><br />
-                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="https://www.rush-delivery.com/package-delivery-solutions/same-day-courier-services/">Courier Services</a><br />
-                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="https://www.rush-delivery.com/package-delivery-solutions/shuttle-services/">Shuttle Services</a><br />
-                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="https://www.rush-delivery.com/package-delivery-solutions/expedited-freight-services/">Full Service Expediting</a><br />
-                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="https://www.rush-delivery.com/package-delivery-solutions/warehouse-logistics/">Warehouse Logistics</a><br />
-                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="https://www.rush-delivery.com/package-delivery-solutions/air-ride-suspension/">Air Ride</a><br />
+                                <p><a href="/wp-content/uploads/2015/11/packageDeliveryServices.jpg" rel="wp-prettyPhoto[16]">
+                                        <img decoding="async" class="alignright wp-image-204 size-medium" src="https://www.rush-delivery.com/wp-content/uploads/2015/11/packageDeliveryServices-300x168.jpg" alt="Package Delivery Solutions" width="300" height="168" srcset="https://www.rush-delivery.com/wp-content/uploads/2015/11/packageDeliveryServices-300x168.jpg 300w, https://www.rush-delivery.com/wp-content/uploads/2015/11/packageDeliveryServices.jpg 750w" sizes="(max-width: 300px) 100vw, 300px" /></a><i class="fa fa-truck" style="color:#019b3c;"></i>
+                                    <a href="package-delivery-solutions/fleet-replacement/">Contract Distribution</a><br />
+                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="package-delivery-solutions/same-day-courier-services/">Courier Services</a><br />
+                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="package-delivery-solutions/shuttle-services/">Shuttle Services</a><br />
+                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="package-delivery-solutions/expedited-freight-services/">Full Service Expediting</a><br />
+                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="package-delivery-solutions/warehouse-logistics/">Warehouse Logistics</a><br />
+                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="package-delivery-solutions/air-ride-suspension/">Air Ride</a><br />
                                     <i class="fa fa-truck" style="color:#019b3c;"></i> Legal<br />
-                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="https://www.rush-delivery.com/package-delivery-solutions/line-haul-distribution/">Line-Haul Distribution</a><br />
-                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="https://www.rush-delivery.com/package-delivery-solutions/medical-deliveries/">Medical</a></p>
+                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="package-delivery-solutions/line-haul-distribution/">Line-Haul Distribution</a><br />
+                                    <i class="fa fa-truck" style="color:#019b3c;"></i> <a href="package-delivery-solutions/medical-deliveries/">Medical</a></p>
                             </div>
 
 

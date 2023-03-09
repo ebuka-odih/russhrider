@@ -9,7 +9,7 @@
     <section id="page-content-title">
         <div id="page-content-header" class="container_24">
             <div id="page-title">
-                <h1 class="pagetitle entry-title" itemprop="headline">Air Ride Suspension</h1>
+                <h1 class="pagetitle entry-title" itemprop="headline">Same Day Courier Services</h1>
             </div>
             <!-- end page-title -->
         </div>
@@ -25,24 +25,19 @@
             <main id="main-content" role="main" class="grid_16">
                 <div class="main-content-padding">
                     <div itemprop="mainContentOfPage"  itemscope="itemscope">
-                        <article class="post-25 page type-page status-publish hentry" id="post-25">
+                        <article class="post-39 page type-page status-publish hentry" id="post-39">
 
 
                             <div class="entry">
-                                <h2><em>Air Ride Suspension reduces vibration for the safe transportation of your delicate products and materials</em></h2>
-                                <p>Air ride suspension vehicles are equipped with a suspension system built around sturdy air bags absorbing vibration and impact shock. Cargo actually floats on a cushion of air, nearly eliminating both compression damage and telescoping. Regardless of your product, it will travel better on our air-ride trucks and trailers.</p>
-                                <p><span class="green" style="color: #019b3c;">RUSH</span> provides the ultimate in transportation for critical computer equipment and components. Our air ride suspension vehicles absorb much more road vibration than coil or leaf springs. The ride quality is greatly improved. Potholes, train tracks, and other road irregularities melt away!</p>
-                                <ul>
-                                    <li>Calibrated precision equipment<a href="http://166.62.121.7/~rushdelivery/wp-content/uploads/2015/11/airRide_suspension.jpg" rel="wp-prettyPhoto[25]" class="broken_link"><img decoding="async" class="alignright size-medium wp-image-221" src="http://166.62.121.7/~rushdelivery/wp-content/uploads/2015/11/airRide_suspension-300x136.jpg" alt="Air Ride Suspension" width="300" height="136" srcset="https://www.rush-delivery.com/wp-content/uploads/2015/11/airRide_suspension-300x136.jpg 300w, https://www.rush-delivery.com/wp-content/uploads/2015/11/airRide_suspension.jpg 680w" sizes="(max-width: 300px) 100vw, 300px" /></a></li>
-                                    <li>Fragile Electronics</li>
-                                    <li>Fragile perishables</li>
-                                    <li>Glass products or materials</li>
-                                    <li>Hazardous materials</li>
-                                    <li>Pressurized gas containers</li>
-                                    <li>Liquid containers</li>
-                                </ul>
-                                <p>Air-ride suspension also helps reduce driver fatigue and improves mechanical reliability, tire wear and fuel mileage. This combination translates into less downtime and reliable delivery.</p>
-                                <p>You can depend on <span class="green" style="color: #019b3c;">RUSH</span> to provide customized services for your company&#8217;s specialized logistics.</p>
+                                <p>Our <span class="green" style="color: #019b3c;">RUSH</span> same day courier comes into personal contact with you and your customers on a professional level that will exceed your expectations. Each courier undergoes an extensive hiring and training process to ensure only the safest and professional handling of your documents and cargo.</p>
+                                <h2>Our Same Day Courier is Uniformed and Professionally Trained </h2>
+                                <p><a href="https://www.rush-delivery.com/wp-content/uploads/2015/11/cargoVan.jpg" rel="attachment wp-att-225" rel="wp-prettyPhoto[39]"><img decoding="async" class="alignright wp-image-225 size-medium" src="https://www.rush-delivery.com/wp-content/uploads/2015/11/cargoVan-300x177.jpg" alt="Same Day Courier Services" width="300" height="177" srcset="https://www.rush-delivery.com/wp-content/uploads/2015/11/cargoVan-300x177.jpg 300w, https://www.rush-delivery.com/wp-content/uploads/2015/11/cargoVan-768x453.jpg 768w, https://www.rush-delivery.com/wp-content/uploads/2015/11/cargoVan-1024x604.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+                                <p>Our courier vehicles are equipped with the latest technology that helps us ensure both on-time pickup and delivery and to provide the accurate execution of the customer&#8217;s instructions. Our specific same day services are designed to meet your company&#8217;s needs:</p>
+                                <i class="fa fa-truck" style="color:#019b3c;"></i> Single same day deliveries<br />
+                                <i class="fa fa-truck" style="color:#019b3c;"></i> Custom route operations<br />
+                                <i class="fa fa-truck" style="color:#019b3c;"></i> Scheduled and On-Call Couriers<br />
+                                <i class="fa fa-truck" style="color:#019b3c;"></i> Hourly Courier and Vehicle Rental<br />
+                                <i class="fa fa-truck" style="color:#019b3c;"></i> E-mail Proof of Delivery</p>
                             </div>
 
 
@@ -54,8 +49,7 @@
 
             <aside id="sidebar" class="grid_8">
                 <div id="sidebarSubnav">
-                    <div itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
-                        <div id="custom_html-5" class="widget_text widget widget_custom_html substitute_widget_class"><h3 class="widgettitle">Need it Today?</h3><div class="textwidget custom-html-widget"><div class="box">
+                    <div itemtype="https://schema.org/WPSideBar" itemscope="itemscope"><div id="custom_html-5" class="widget_text widget widget_custom_html substitute_widget_class"><h3 class="widgettitle">Need it Today?</h3><div class="textwidget custom-html-widget"><div class="box">
                                     <h2>Same Day Delivery Service</h2>
                                     To request account information call our Customer Service Center
                                     <p style="text-align: center;">(937) 297-6182 (Dayton)
@@ -97,4 +91,5 @@
     </section><!-- end bottom-bg -->
 
     <div class="clear"></div>
+
 @endsection
