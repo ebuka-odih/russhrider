@@ -86,9 +86,9 @@
     <style type="text/css">.broken_link, a.broken_link {
             text-decoration: line-through;
         }</style><link rel="pingback" href="xmlrpc.html" />
-    <link rel="icon" href="wp-content/uploads/2018/05/cropped-favIcon-32x32.png" sizes="32x32" />
-    <link rel="icon" href="wp-content/uploads/2018/05/cropped-favIcon-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="wp-content/uploads/2018/05/cropped-favIcon-180x180.png" />
+    <link rel="icon" href="{{ asset('wp-content/uploads/2018/05/cropped-favIcon-32x32.png') }}" sizes="32x32" />
+    <link rel="icon" href="{{ asset('wp-content/uploads/2018/05/cropped-favIcon-192x192.png') }}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ asset('wp-content/uploads/2018/05/cropped-favIcon-180x180.png') }}" />
     <meta name="msapplication-TileImage" content="https://www.rush-delivery.com/wp-content/uploads/2018/05/cropped-favIcon-270x270.png" />
 </head>
 <body itemtype="https://schema.org/WebPage" itemscope="itemscope" class="home blog wp-embed-responsive u-design-responsive-on  u-design-menu-drop-shadows-on udesign-is-global-page-width udesign-fa">
@@ -129,16 +129,16 @@
                             <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-86"><a href="{{ route('about') }}"><span>About</span></a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="{{ route('affiliations') }}"><span>Affiliations</span></a></li>
-                                    <li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="about/community-relations/index.html"><span>Community Relations</span></a></li>
-                                    <li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="about/mission-values/index.html"><span>Mission &#038; Values</span></a></li>
-                                    <li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="about/philanthropy/index.html"><span>Philanthropy</span></a></li>
+                                    <li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="{{ route('community-relations') }}"><span>Community Relations</span></a></li>
+                                    <li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="{{ route('mission-values') }}"><span>Mission &#038; Values</span></a></li>
+                                    <li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="{{ route('philanthropy') }}"><span>Philanthropy</span></a></li>
                                 </ul>
                             </li>
-                            <li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-95"><a href="locations/index.html"><span>Locations</span></a>
+                            <li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-95"><a href="{{ route('locations') }}"><span>Locations</span></a>
                                 <ul class="sub-menu">
-                                    <li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="locations/cincinnati-courier-service/index.html"><span>Cincinnati</span></a></li>
-                                    <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="locations/columbus-courier-service/index.html"><span>Columbus</span></a></li>
-                                    <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="locations/dayton-courier-service/index.html"><span>Dayton</span></a></li>
+                                    <li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="{{ route('cincinnati') }}"><span>Cincinnati</span></a></li>
+                                    <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="{{ route('columbus') }}"><span>Columbus</span></a></li>
+                                    <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="{{ route('dayton') }}"><span>Dayton</span></a></li>
                                 </ul>
                             </li>
                             <li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-100"><a href="package-delivery-solutions/index.html"><span>Services</span></a>

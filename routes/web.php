@@ -16,6 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'pages.index')->name('index');
 Route::view('/about-us', 'pages.about.about')->name('about');
 Route::view('/about/affiliations', 'pages.about.affiliations')->name('affiliations');
+Route::view('/about/community-relations', 'pages.about.community-relations')->name('community-relations');
+Route::view('/about/mission-values', 'pages.about.mission-values')->name('mission-values');
+Route::view('/about/philanthropy', 'pages.about.philanthropy')->name('philanthropy');
+
+Route::view('locations/', 'pages.locations.locations')->name('locations');
+Route::view('locations/cincinnati-courier-service', 'pages.locations.cincinnati-courier-service')->name('cincinnati');
+Route::view('locations/dayton-courier-service', 'pages.locations.dayton-courier-service')->name('dayton');
+Route::view('locations/columbus-courier-service', 'pages.locations.columbus-courier-service')->name('columbus');
 
 Route::view('/contact', 'pages.contact')->name('contact');
 Route::view('/services', 'pages.services')->name('services');
