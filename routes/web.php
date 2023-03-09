@@ -2,16 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::view('/', 'pages.index')->name('index');
 Route::view('/about-us', 'pages.about.about')->name('about');
@@ -32,14 +22,13 @@ Route::view('package-delivery-solutions/same-day-courier-services', 'pages.servi
 Route::view('package-delivery-solutions/expedited-freight-services', 'pages.services.expedited-freight-services')->name('expedited-freight-services');
 Route::view('package-delivery-solutions/line-haul-distribution', 'pages.services.line-haul-distribution')->name('line-haul-distribution');
 Route::view('package-delivery-solutions/medical-deliveries', 'pages.services.medical-deliveries')->name('medical-deliveries');
-
+Route::view('package-delivery-solutions/shuttle-services', 'pages.services.shuttle-services')->name('shuttle-services');
+Route::view('package-delivery-solutions/warehouse-logistics', 'pages.services.warehouse-logistics')->name('warehouse-logistics');
+Route::view('rates', 'pages.rates')->name('rates');
 Route::view('/contact', 'pages.contact')->name('contact');
-Route::view('/services', 'pages.services')->name('services');
-Route::view('/track_trace', 'pages.track_trace')->name('track_trace');
-Route::view('services/ground_shipping', 'pages.ground_shipping')->name('ground_shipping');
-Route::view('services/ground_shipping', 'pages.ground_shipping')->name('ground_shipping');
-Route::view('/demo', 'pages.demo');
 
+
+Route::view('/demo', 'pages.demo');
 Route::post('track/shipment', "ShipmentController@trackShipment")->name('trackShipment');
 
 

@@ -149,19 +149,14 @@
                                     <li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="{{ route('expedited-freight-services') }}"><span>Expedited Freight Services</span></a></li>
                                     <li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="{{ route('line-haul-distribution') }}"><span>Line-Haul Distribution</span></a></li>
                                     <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="{{ route('medical-deliveries') }}"><span>Medical Deliveries</span></a></li>
-                                    <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="package-delivery-solutions/shuttle-services"><span>Shuttle Services</span></a></li>
-                                    <li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="package-delivery-solutions/warehouse-logistics"><span>Warehouse Logistics</span></a></li>
+                                    <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="{{ route('shuttle-services') }}"><span>Shuttle Services</span></a></li>
+                                    <li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="{{ route('warehouse-logistics') }}"><span>Warehouse Logistics</span></a></li>
                                 </ul>
                             </li>
-                            <li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-92"><a href="contact/index.html"><span>Contact</span></a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-320"><a href="contact/index.html"><span>Management Team</span></a></li>
-                                    <li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="contact/career-opportunities/index.html"><span>Career Opportunities</span></a></li>
-                                    <li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="contact/sales-request/index.html"><span>Sales Request</span></a></li>
-                                    <li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="service-conditions/index.html"><span>Service Conditions</span></a></li>
-                                </ul>
+                            <li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-92"><a href="{{ route('contact') }}"><span>Contact</span></a>
+
                             </li>
-                            <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="rates/index.html"><span>Accessorials</span></a></li>
+                            <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="{{ route('rates') }}"><span>Accessorials</span></a></li>
                         </ul></div>			</div>
                 <!-- end dropdown-holder -->
             </nav>
